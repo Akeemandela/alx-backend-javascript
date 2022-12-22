@@ -1,11 +1,11 @@
 import ClassRoom from './0-classroom';
 
 export default function initializeRooms() {
-  const maxSizes = [19, 20, 34];
-  const arrOfRoom = [];
+  const sizes = [19, 20, 34];
+  const arrayOfRoom = [];
 
-  for (const size of maxSizes) {
-    arrOfRoom.push(new ClassRoom(size));
+  for (const size of sizes) {
+    arrayOfRoom.push(new ClassRoom(size));
   }
-  return arrOfRoom;	
+  return arrayOfRoom;
 }
