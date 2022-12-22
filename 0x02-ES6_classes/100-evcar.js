@@ -9,7 +9,7 @@ export default class EVCar extends Car {
     this._range = range;
   }
 
-  // Methods
+ 
 
   cloneCar() {
     const NewObj = this.constructor[Symbol.species] || this.constructor;
@@ -17,7 +17,5 @@ export default class EVCar extends Car {
     return clone;
   }
 
-  // Setters
-
-  // Getters
+  
 }
